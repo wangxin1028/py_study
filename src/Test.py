@@ -1,6 +1,6 @@
-def f(x):
-    return x*x
+from src.MyMethod import myabs
+from src.MyMethod import table
+b=myabs(-9)
+print(b)
 
-r=map(f,[1,2,3,4,5])
-for i in r:
-    print(i)
+table(9)
